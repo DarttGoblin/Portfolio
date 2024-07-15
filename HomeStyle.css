@@ -1,0 +1,85 @@
+#projectsDescription, #yassineDescription {
+    position: relative;
+    top: 20px;
+    visibility: hidden;
+    transition: top 0.3s, opacity 0.3s;
+    display: inline-block;
+}
+#projectsDescription {width: 160px;}
+#yassineDescription {width: 100px;}
+#email, #number, #git {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background: var(--gradientSpan);
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 7s ease infinite;
+} 
+#contactDiv {
+    color: var(--primaryColor);
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 10px;
+}
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+h1 {color: var(--primaryColor);}
+#welcomeP {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+#homeSection {
+    text-align: left;
+    float: left;
+    margin: 60px 80px 80px 80px;
+    width: 600px;
+}
+#underLine {
+    width: 85px;
+    top: -13px;
+    right: 100px;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-image: url('PortfolioMedia/PortfolioHomeBG.jpg');
+    background-color: black;
+    background-position: 150px 0px;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1800px) {body {background-position: 100px 0px;}}
+@media only screen and (max-width: 1500px) {body {background-position: 0px 0px;}}
+@media only screen and (max-width: 1000px) {
+    body {background-position: -150px 0px;}
+    #homeSection {width: fit-content;}
+}
+@media only screen and (max-width: 800px) {
+    body {background-position: -100px 0px;}
+    #homeSection {
+        padding: 20px;
+        border-radius: 20px;
+        backdrop-filter: blur(20px);
+    }
+    #contactDiv {line-height: 20px;}
+}
+@media only screen and (max-width: 600px) {
+    h1 {font-size: 25px;}
+    #welcomeP {
+        font-size: 15px;
+        font-weight: normal;
+    }
+    #homeSection {
+        padding: 20px;
+        margin: 0px 20px 20px 20px;
+    }
+    #contactDiv {line-height: 5px;}
+}
