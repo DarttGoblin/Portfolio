@@ -44,13 +44,13 @@ var interval = setInterval(() => {
 function ClickOnLink() {
     for (let i = 0; i < projectLinks.length; i++) {
         visitProject[i].onclick  = function() {
-            if (projectLinks[i] == "notavailable") {alert('Website is not currently available! check later.');}
+            if (projectLinks[i] == "notavailable") {alert('Website is not currently available! check later.'); return;}
             window.open(projectLinks[i], '_blank');
         }
     }
     for (let i = 0; i < latestProjectLinks.length; i++) {
         visitLatestProject[i].onclick = function() {
-            if (latestProjectLinks[i] == "notavailable") {alert('Website is not currently available! check later.');}
+            if (latestProjectLinks[i] == "notavailable") {alert('Website is not currently available! check later.'); return;}
             window.open(latestProjectLinks[i], '_blank');
         }
     }
