@@ -1,0 +1,51 @@
+.tool {
+    display: flex;
+    gap: 20px;
+    border: 2px solid rgb(55, 65, 81);
+    width: 400px;
+    height: fit-content;
+    padding: 15px;
+    border-radius: calc(var(--main-border-radius) + 10px);
+    transition: background-color var(--main-transition);
+}
+
+.tool:hover {
+    background-color: rgb(24, 33, 41);
+}
+
+.tool-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: var(--main-border-radius);
+}
+
+.tool-image {
+    width: 60%;
+}
+
+.tool-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tool-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.tool-usecase {
+    font-size: 18px;
+    color: var(--main-sub-color);
+}
+
+@media only screen and (max-width: 500px) {
+    .tool {
+        width: 100%;
+    }
+}

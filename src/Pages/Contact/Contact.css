@@ -1,0 +1,110 @@
+.contact-setion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0px;
+}
+
+.contact-description {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+    width: 80%;
+    font-weight: 600;
+}
+    
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.inputs-container {
+    display: flex;
+    gap: 100px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-label {
+    color: white;
+    font-size: 20px;
+}
+
+.contact-input, .contact-content {
+    border-radius: var(--main-border-radius);
+    background-color: rgb(41, 51, 65);
+    outline: 3px solid var(--main-hover-color);
+    border: none;
+    width: 400px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.contact-input:focus, .contact-content:focus {
+    outline: 3px solid var(--main-color);
+}
+
+.contact-content-container {
+    margin-top: 50px;
+}
+
+.contact-content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: calc(100% - 30px);
+    min-height: 100px;
+    resize: vertical;
+}
+
+.send-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--main-color);
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+    align-self: flex-end;
+    border-radius: var(--main-border-radius);
+    height: 50px;
+    padding: 0px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: background-color var(--main-transition);
+}
+
+.send-button:hover {
+    background-color: var(--main-hover-color);
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact-setion {
+        margin: 150px 0px;
+    }
+
+    .inputs-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-input, .contact-content {
+        width: calc(100% - 30px);
+    }
+
+    .send-button {
+        align-self: center;
+        width: 100%;
+    }
+}
