@@ -331,13 +331,14 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    gap: 100px 0px;
 }
 
 .hobby-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px;
+    width: 400px;
     height: 350px;
 }
 
@@ -355,7 +356,7 @@
 .hobby-description {
     color: var(--main-sub-color);
     font-size: 16px;
-    width: 60%;
+    width: 70%;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -394,15 +395,15 @@
         font-size: 12px;
         color: var(--main-sub-color);
     }
+
+    .hobbies-container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
-    .hobbies-container {
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-    }
-
     .left-year {
         display: flex;
         flex-direction: row-reverse;
@@ -441,6 +442,14 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .about-work-flow-title {
+        font-size: var(--main-title-responsive-font-size);
+    }
+
+    .about-work-flow-description {
+        font-size: var(--main-description-responsive-font-size);
+    }
+
     .hobbies-title {
         font-size: var(--main-title-responsive-font-size);
     }
@@ -484,6 +493,10 @@
     
     .about-education-description {
         font-size: var(--main-description-responsive-font-size);
+    }
+
+    .hobby-container {
+        width: 100%;
     }
 }
 
