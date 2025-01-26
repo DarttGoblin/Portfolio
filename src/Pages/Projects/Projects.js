@@ -14,7 +14,7 @@ const Projects = () => {
                 <div className='projects-container'>
                     <Project 
                         available
-                        onClick={() => window.open('http://localhost:3000/', '_blank')}
+                        onClick={() => window.open('https://portfolio-git-main-yassinebazgourgmailcoms-projects.vercel.app/', '_blank')}
                         title='Portfolio 🚀'
                         date='2025' 
                         description='Personal Website showcasing skills and projects in web dev, ES, ML and robotics.'
