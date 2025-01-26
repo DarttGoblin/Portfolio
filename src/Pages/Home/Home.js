@@ -128,7 +128,7 @@ const Home = () => {
                     <Tool image={prolog} title='Prolog' usecase='Expert Systems' color="rgb(135, 92, 31)"/>
                     <Tool image={sql} title='SQL' usecase='Database' color="rgb(114, 150, 186)"/>
                     <Tool image={powerbi} title='Power BI' usecase='Business Intelligence' color="rgb(90, 75, 30)"/>
-                    <Tool image={pdi} title='Pentaho Data Integration' usecase='Business Intelligence' color="rgb(95, 0, 0)"/>
+                    <Tool image={pdi} title='Pentaho Data Integration' usecase='Business Intelligence' color="rgb(95, 0, 0)" long_title/>
                     <Tool image={r} title='R' usecase='Business Intelligence' color="rgb(15, 65, 17)"/>
                     <Tool image={snort} title='Snort' usecase='Cyber Security' color="rgb(69, 52, 52)"/>
                     <Tool image={git} title='Git' usecase='Code Management' color="rgb(0, 0, 0)"/>
