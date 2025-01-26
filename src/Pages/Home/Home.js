@@ -98,7 +98,12 @@ const Home = () => {
                         Computer Science, currently deeply indulged in Artificial Intelligence, and probably on too much coffee.
                     </span>
                     <div className='home-header-buttons-container'>
-                        <Link to='/Contact'><button className='home-header-button get-in-touch'>GET IN TOUCH</button></Link>
+                        <Link 
+                            to='/Contact'
+                            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                        >
+                            <button className='home-header-button get-in-touch'>GET IN TOUCH</button>
+                        </Link>
                         <button onClick={() => {window.open('https://drive.google.com/file/d/1gCQB-MRLJQSqAFz0Q3rUttn942FIFyl_/view?usp=drive_link', '_blank')}} className='home-header-button learn-more'>View My Resume</button>
                     </div>
                 </div>
