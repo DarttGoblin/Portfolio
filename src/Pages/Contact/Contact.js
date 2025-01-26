@@ -18,7 +18,7 @@ const Contact = () => {
 		setIsSubmitting(true);
 
 		try {
-			const response = await fetch('http://localhost:8080', {
+			const response = await fetch('https://portfolio-server-ebon-seven.vercel.app/', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ 
