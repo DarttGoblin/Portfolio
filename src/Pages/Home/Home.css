@@ -317,4 +317,8 @@
     .skills-description {
         font-size: var(--main-description-responsive-font-size);
     }
+
+    .home-header-buttons-container {
+        align-self: center;
+    }
 }
