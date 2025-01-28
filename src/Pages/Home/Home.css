@@ -147,7 +147,7 @@
 }
 
 .skill-image {
-    width: 200px;
+    width: 180px;
 }
 
 .skill-title {
@@ -320,5 +320,9 @@
 
     .home-header-buttons-container {
         align-self: center;
+    }
+
+    .skill-image {
+        width: 140px;
     }
 }
