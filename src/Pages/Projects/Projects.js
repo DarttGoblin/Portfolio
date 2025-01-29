@@ -25,6 +25,7 @@ const Projects = () => {
                         ]}
                     />
                     <Project 
+                        available
                         onClick={() => window.open('https://darttgoblin.github.io/Cortext/Cortext.html', '_blank')}
                         title='Cortext 🧠'
                         date='2025' 
