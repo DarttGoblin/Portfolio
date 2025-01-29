@@ -25,7 +25,7 @@ const Projects = () => {
                         ]}
                     />
                     <Project 
-                        onClick={() => {alert('Project is done but not hosted yet, will be available soon!')}}
+                        onClick={() => window.open('https://darttgoblin.github.io/Cortext/Cortext.html', '_blank')}
                         title='Cortext 🧠'
                         date='2025' 
                         description='Sentiment analysis interface combining text processing and neural network analysis.'
