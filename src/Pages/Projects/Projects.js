@@ -74,7 +74,8 @@ const Projects = () => {
                         ]}
                     />
                     <Project 
-                        onClick={() => {alert('Project is done but not hosted yet, will be available soon!')}}
+                        available
+                        onClick={() => window.open('https://darttgoblin.github.io/TheraBot/TheraBot.html', '_blank')}
                         title='Therabot 💊'
                         date='2025' 
                         description='Diagnostic chatbot for identifying and analyzing digestive system diseases.'
