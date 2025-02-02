@@ -8,6 +8,7 @@ import Separator from '../../Components/Separator/Separator'
 import portrait from '../../Media/About.Media/yassine_bazgour.png'
 import fitness from '../../Media/About.Media/fitness.png'
 import guitar from '../../Media/About.Media/guitar.png'
+import skate from '../../Media/About.Media/penny-board.png'
 
 
 const About = () => {
@@ -193,6 +194,15 @@ const About = () => {
 							<span className='hobby-description'>
 								As a bodybuilder for over 6 years, fitness has taught me discipline, focus, and 
 								perseverance in both physical and mental challenges.
+							</span>
+						</div>
+						<div className='hobby-container'>
+							<img className='hobby-image' src={skate} alt='Skate'></img>
+							<span className='hobby-title'>Skating</span>
+							<span className='hobby-description'>
+								Skating on my penny board has been a source of creativity and joy for me over the past 6 years. 
+								It's not only a fun way to stay active but also a reminder to embrace balance, precision, and 
+								the thrill of mastering new skills.
 							</span>
 						</div>
 					</div>
