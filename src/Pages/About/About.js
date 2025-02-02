@@ -189,19 +189,19 @@ const About = () => {
 							</span>
 						</div>
 						<div className='hobby-container'>
-							<img className='hobby-image' src={fitness} alt='Fitness'></img>
-							<span className='hobby-title'>Fitness</span>
-							<span className='hobby-description'>
-								As a bodybuilder for over 6 years, fitness has taught me discipline, focus, and 
-								perseverance in both physical and mental challenges.
-							</span>
-						</div>
-						<div className='hobby-container'>
 							<img className='hobby-image' src={skate} alt='Skate'></img>
 							<span className='hobby-title'>Skating</span>
 							<span className='hobby-description'>
 								Skating for 6 years has been my way of staying active, mastering balance, 
 								and occasionally pretending I'm cool while dodging curbs.
+							</span>
+						</div>
+						<div className='hobby-container'>
+							<img className='hobby-image' src={fitness} alt='Fitness'></img>
+							<span className='hobby-title'>Fitness</span>
+							<span className='hobby-description'>
+								As a bodybuilder for over 6 years, fitness has taught me discipline, focus, and 
+								perseverance in both physical and mental challenges.
 							</span>
 						</div>
 					</div>
