@@ -200,7 +200,7 @@ const About = () => {
 							<img className='hobby-image' src={skate} alt='Skate'></img>
 							<span className='hobby-title'>Skating</span>
 							<span className='hobby-description'>
-								Penny board skating for 6 years has been my way of staying active, mastering balance, 
+								Skating for 6 years has been my way of staying active, mastering balance, 
 								and occasionally pretending I'm cool while dodging curbs.
 							</span>
 						</div>
