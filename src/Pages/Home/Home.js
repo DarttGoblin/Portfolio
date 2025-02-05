@@ -21,6 +21,7 @@ import java from '../../Media/Home.Media/java.png'
 import raspberry from '../../Media/Home.Media/raspberry-pi.png'
 import arduino from '../../Media/Home.Media/arduino.png'
 import tinker from '../../Media/Home.Media/tinker-cad.png'
+import uml from '../../Media/Home.Media/uml.png'
 import prolog from '../../Media/Home.Media/prolog.png'
 import sql from '../../Media/Home.Media/sql-5.png'
 import powerbi from '../../Media/Home.Media/power-bi.png'
@@ -130,6 +131,7 @@ const Home = () => {
                     <Tool image={arduino} title='Arduino' usecase='Embedded Systems' color="rgb(45, 90, 90)"/>
                     <Tool image={tinker} title='Tinker Cad' usecase='Embedded Systems' color="rgb(255, 255, 255)"/>
                     <Tool image={nodered} title='Node Red' usecase='Embedded Systems' color="rgb(144, 0, 0)"/>
+                    <Tool image={uml} title='UML' usecase='Software Architecture' color="rgb(181, 181, 181)"/>
                     <Tool image={prolog} title='Prolog' usecase='Expert Systems' color="rgb(135, 92, 31)"/>
                     <Tool image={sql} title='SQL' usecase='Database' color="rgb(114, 150, 186)"/>
                     <Tool image={powerbi} title='Power BI' usecase='Business Intelligence' color="rgb(90, 75, 30)"/>
