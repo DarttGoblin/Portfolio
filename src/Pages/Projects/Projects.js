@@ -110,8 +110,7 @@ const Projects = () => {
                         ]}
                     />
                     <Project 
-                        available
-                        onClick={() => window.open('https://darttgoblin.github.io/Whisper/Login.html', '_blank')}
+                        onClick={() => {alert('Project is currently undergoing maintenance and will be available shortly!')}}
                         title='Whisper 💬'
                         date='2024' 
                         description='A Real-time chat app ensuring seamless, prompt communication for users.'
@@ -125,7 +124,8 @@ const Projects = () => {
                         ]}
                     />
                     <Project 
-                        onClick={() => {alert('Project is currently undergoing maintenance and will be available shortly!')}}
+                        available
+                        onClick={() => window.open('https://darttgoblin.github.io/LogSpectrum/InterfaceEmbPages/About/About.html', '_blank')}
                         title='Log Spectrum 📊'
                         date='2024' 
                         description='Analyzes and visualizes Snort logs for efficient intrusion detection monitoring.'
