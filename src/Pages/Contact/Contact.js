@@ -51,7 +51,7 @@ const Contact = () => {
 			<Nav/>
 			<section className='contact-setion'>
 				<span className='contact-description'>
-					Got a question? Need a collaborator for your next big idea? Or maybe you just 
+					Have a testemonial? Got a question? Need a collaborator for your next big idea? Or maybe you just 
 					want to share a cat video (we won't judge)? Either way, you've found the right 
 					place! Drop a message, and I'll get back to you faster than a web page loads 
 					after clearing the cache. Whether you're looking to build the next tech revolution 
