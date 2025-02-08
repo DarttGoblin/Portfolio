@@ -51,12 +51,12 @@ const Contact = () => {
 			<Nav/>
 			<section className='contact-setion'>
 				<span className='contact-description'>
-					Have a testemonial? Got a question? Need a collaborator for your next big idea? Or maybe you just 
+					Have a testimonial? Got a question? Need a collaborator for your next big idea? Or maybe you just 
 					want to share a cat video (we won't judge)? Either way, you've found the right 
 					place! Drop a message, and I'll get back to you faster than a web page loads 
 					after clearing the cache. Whether you're looking to build the next tech revolution 
 					or just want to chat about robotics and coffee, I'm all ears (and maybe some wires, too). 
-					Let's connect! 😊
+					Let's connect! 🚀😊
 				</span>
 				<div className='contact-container'>
 					<div className='inputs-container'>
