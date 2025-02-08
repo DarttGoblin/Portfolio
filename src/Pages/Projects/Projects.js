@@ -13,6 +13,18 @@ const Projects = () => {
                 <span className='projects-description'>A list of some projects and side projects I worked on.</span>
                 <div className='projects-container'>
                     <Project 
+                        onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
+                        title='Herma 🔮'
+                        date='2025' 
+                        description='Working on it! stay tunned'
+                        tools={[
+                            { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
+                            { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
+                            { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
+                            { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' }
+                        ]}
+                    />
+                    <Project 
                         available
                         onClick={() => window.open('https://portfolio-git-main-yassinebazgourgmailcoms-projects.vercel.app/', '_blank')}
                         title='Portfolio 🚀'
