@@ -148,7 +148,7 @@ const Projects = () => {
                     <Project 
                         available
                         onClick={() => window.open('https://darttgoblin.github.io/LogSpectrum/InterfaceEmbPages/About/About.html', '_blank')}
-                        title='Log Spectrum 📊'
+                        title='LogSpectrum 📊'
                         skill='Cyber Security'
                         date='2024' 
                         description='Analyzes and visualizes Snort logs for efficient intrusion detection monitoring.'
