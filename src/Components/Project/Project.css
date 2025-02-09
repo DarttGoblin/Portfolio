@@ -15,6 +15,11 @@
     background-color: rgb(24, 33, 41);
 }
 
+.project-title-skill-date-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .project-title-date-container {
     display: flex;
     justify-content: space-between;
@@ -24,6 +29,12 @@
 .project-title {
     color: white;
     font-size: 25px;
+    font-weight: 700;
+}
+
+.project-skill {
+    color: var(--main-color);
+    font-size: 15px;
     font-weight: 700;
 }
 
