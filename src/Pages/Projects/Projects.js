@@ -15,6 +15,7 @@ const Projects = () => {
                     <Project 
                         onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
                         title='Herma 🔮'
+                        skill='Machine Learning'
                         date='2025' 
                         description='Working on it! stay tunned'
                         tools={[
