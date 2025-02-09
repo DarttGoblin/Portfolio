@@ -29,6 +29,7 @@ const Projects = () => {
                         available
                         onClick={() => window.open('https://portfolio-git-main-yassinebazgourgmailcoms-projects.vercel.app/', '_blank')}
                         title='Portfolio 🚀'
+                        skill='Web Development'
                         date='2025' 
                         description='Personal Website showcasing skills and projects in web dev, ES, ML and robotics.'
                         tools={[
@@ -41,6 +42,7 @@ const Projects = () => {
                         available
                         onClick={() => window.open('https://darttgoblin.github.io/Cortext/Cortext.html', '_blank')}
                         title='Cortext 🧠'
+                        skill='Machine Learning'
                         date='2025' 
                         description='Sentiment analysis interface combining text processing and neural network analysis.'
                         tools={[
@@ -54,6 +56,7 @@ const Projects = () => {
                         available
                         onClick={() => window.open('https://drive.google.com/file/d/1TsXVrZmQmEfpMF_mUPjdcb787d7KsVtP/view?usp=drive_link', '_blank')}
                         title='MoroccoInsights 🕌'
+                        skill='Business Intelligence'
                         date='2025' 
                         description="Analysis based on data of Morocco: A BI approach for studying the population"
                         tools={[
@@ -66,6 +69,7 @@ const Projects = () => {
                         available
                         onClick={() => window.open('https://darttgoblin.github.io/NeuroLink/NeuroLink.Pages/Home/Home.html', '_blank')}
                         title='NeuroLink 🎮'
+                        skill='IoT'
                         date='2025' 
                         description='NeuroDrive interface, user-friendly enabling secure, precise car control and automation'
                         tools={[
@@ -79,6 +83,7 @@ const Projects = () => {
                         available
                         onClick={() => window.open('https://darttgoblin.github.io/NeuroLink/NeuroLink.Pages/Home/Home.html', '_blank')}
                         title='NeuroDrive 🚗'
+                        skill='Robotics'
                         date='2025' 
                         description='Intelligent, automated vehicle control with advanced safety and seamless integration.'
                         tools={[
@@ -90,6 +95,7 @@ const Projects = () => {
                         available
                         onClick={() => window.open('https://darttgoblin.github.io/TheraBot/TheraBot.html', '_blank')}
                         title='Therabot 💊'
+                        skill='Expert Systems'
                         date='2025' 
                         description='Diagnostic chatbot for identifying and analyzing digestive system diseases.'
                         tools={[
@@ -105,6 +111,7 @@ const Projects = () => {
                         available
                         onClick={() => window.open('https://heatz.ma/', '_blank')}
                         title='Heatz 🛒'
+                        skill='Web Development'
                         date='2024' 
                         description='E-commerce site offering tech products like headphones, cases, batteries.'
                         tools={[
@@ -116,6 +123,7 @@ const Projects = () => {
                     <Project 
                         onClick={() => {alert('Project is currently undergoing maintenance and will be available shortly!')}}
                         title='Medieval 🏰'
+                        skill='Web Development'
                         date='2024' 
                         description='Immerses users in the Middle Ages through paintings and classical music experiences.'
                         tools={[
@@ -125,6 +133,7 @@ const Projects = () => {
                     <Project 
                         onClick={() => {alert('Project is currently undergoing maintenance and will be available shortly!')}}
                         title='Whisper 💬'
+                        skill='Web Development'
                         date='2024' 
                         description='A Real-time chat app ensuring seamless, prompt communication for users.'
                         tools={[
@@ -140,6 +149,7 @@ const Projects = () => {
                         available
                         onClick={() => window.open('https://darttgoblin.github.io/LogSpectrum/InterfaceEmbPages/About/About.html', '_blank')}
                         title='Log Spectrum 📊'
+                        skill='Cyber Security'
                         date='2024' 
                         description='Analyzes and visualizes Snort logs for efficient intrusion detection monitoring.'
                         tools={[
@@ -155,6 +165,7 @@ const Projects = () => {
                     <Project 
                         onClick={() => {alert('Project is currently undergoing maintenance and will be available shortly!')}}
                         title='Academic Nexus 🎓'
+                        skill='Web Development'
                         date='2023' 
                         description='Displays and simplifies student data management and grade tracking.'
                         tools={[
@@ -167,6 +178,7 @@ const Projects = () => {
                     <Project 
                         onClick={() => {alert('Project is currently undergoing maintenance and will be available shortly!')}}
                         title='iBulk 🏋️‍♂️'
+                        skill='Web Development'
                         date='2022' 
                         description='Fitness site with personalized plans, coaching, tools, and a store.'
                         tools={[
