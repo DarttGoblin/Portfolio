@@ -105,7 +105,7 @@ const Home = () => {
                         >
                             <button className='home-header-button get-in-touch'>GET IN TOUCH</button>
                         </Link>
-                        <button onClick={() => {window.open('https://drive.google.com/file/d/1WmhRaYhiUkkCMnBZOHYwRrqmTkekdynl/view?usp=drive_link', '_blank')}} className='home-header-button learn-more'>View My Resume</button>
+                        <button onClick={() => {window.open('https://drive.google.com/file/d/1XqoexESi8QAFhKsnSvwmelx5vkuVynKQ/view?usp=drive_link', '_blank')}} className='home-header-button learn-more'>View My Resume</button>
                     </div>
                 </div>
                 <div className='home-header-image-container'>
