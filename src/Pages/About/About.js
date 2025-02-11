@@ -40,7 +40,7 @@ const About = () => {
 							<span className='about-header-contact'>Phone: <span onClick={() => {CopyText('Number phone', '+212 638659880')}} className='about-header-contact-info'>+212 638659880</span></span>
 							<span className='about-header-contact'>GitHub: <span onClick={() => {window.open('https://github.com/DarttGoblin', '_blank')}} className='about-header-contact-info'>https://github.com/DarttGoblin</span></span>
 							<span className='about-header-contact'>Linkedin: <span onClick={() => {window.open('https://www.linkedin.com/in/yassine-bazgour-178b73305', '_blank')}} className='about-header-contact-info'>https://www.linkedin.com/in/yassine-bazgour-178b73305</span></span>
-							<span className='about-header-contact'>Resume: <span onClick={() => {window.open('https://drive.google.com/file/d/1XqoexESi8QAFhKsnSvwmelx5vkuVynKQ/view?usp=drive_link', '_blank')}} className='about-header-contact-info'>https://drive.google.com/file/d/1vNY6AJ-IxOrIOOSuSadUfWPwwJP51lgr/view?usp=drive_link</span></span>
+							<span className='about-header-contact'>Resume: <span onClick={() => {window.open('https://shorturl.at/UFgpp', '_blank')}} className='about-header-contact-info'>https://drive.google.com/file/d/1vNY6AJ-IxOrIOOSuSadUfWPwwJP51lgr/view?usp=drive_link</span></span>
 						</div>
 						<Link 
 							to='/Contact'
