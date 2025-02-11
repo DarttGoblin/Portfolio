@@ -34,8 +34,7 @@ const Projects = () => {
                         description='Personal Website showcasing skills and projects in web dev, ES, ML and robotics.'
                         tools={[
                             { name: 'React', backgroundColor: 'rgb(40, 80, 95)' },
-                            { name: 'Node.js', backgroundColor: 'rgb(43, 90, 50)' },
-                            { name: 'Express.js', backgroundColor: 'rgb(115, 115, 115)' }
+                            { name: 'Node.js', backgroundColor: 'rgb(43, 90, 50)' }
                         ]}
                     />
                     <Project 
@@ -103,7 +102,6 @@ const Projects = () => {
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
                             { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
                             { name: 'Node.js', backgroundColor: 'rgb(43, 90, 50)' },
-                            { name: 'Express.js', backgroundColor: 'rgb(115, 115, 115)' },
                             { name: 'Prolog', backgroundColor: 'rgb(135, 92, 31)' }
                         ]}
                     />
@@ -117,7 +115,6 @@ const Projects = () => {
                         tools={[
                             { name: 'React', backgroundColor: 'rgb(40, 80, 95)' },
                             { name: 'Node.js', backgroundColor: 'rgb(43, 90, 50)' },
-                            { name: 'Express.js', backgroundColor: 'rgb(115, 115, 115)' }                        
                         ]}
                     />
                     <Project 
@@ -141,7 +138,6 @@ const Projects = () => {
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
                             { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
                             { name: 'Node.js', backgroundColor: 'rgb(43, 90, 50)' },
-                            { name: 'Express.js', backgroundColor: 'rgb(115, 115, 115)' },
                             { name: 'SQL', backgroundColor: 'rgb(114, 150, 186)' }
                         ]}
                     />
@@ -157,7 +153,6 @@ const Projects = () => {
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
                             { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
                             { name: 'Node.js', backgroundColor: 'rgb(43, 90, 50)' },
-                            { name: 'Express.js', backgroundColor: 'rgb(115, 115, 115)' },
                             { name: 'Snort', backgroundColor: 'rgb(69, 52, 52)' },
                             { name: 'SQL', backgroundColor: 'rgb(114, 150, 186)' }
                         ]}
@@ -186,7 +181,6 @@ const Projects = () => {
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
                             { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
                             { name: 'Node.js', backgroundColor: 'rgb(43, 90, 50)' },
-                            { name: 'Express.js', backgroundColor: 'rgb(115, 115, 115)' },
                             { name: 'SQL', backgroundColor: 'rgb(114, 150, 186)' }
                         ]}
                     />
