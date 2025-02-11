@@ -122,7 +122,6 @@ const Home = () => {
                     <Tool image={js} title='Javascript' usecase='Web Development' color="rgb(81, 75, 20)"/>
                     <Tool image={react} title='React' usecase='Web Development' color="rgb(40, 80, 95)"/>
                     <Tool image={node} title='Node.js' usecase='Web Development' color="rgb(43, 90, 50)"/>
-                    <Tool image={express} title='Express.js' usecase='Web Development' color="rgb(115, 115, 115)"/>
                     <Tool image={php} title='Php' usecase='Web Development' color="rgb(75, 50, 95)"/>
                     <Tool image={python} title='Python' usecase='Machine Learning' color="rgb(45, 70, 90)"/>
                     <Tool image={java} title='Java' usecase='Desktop Application' color="rgb(90, 55, 35)"/>
