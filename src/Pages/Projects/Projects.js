@@ -24,6 +24,7 @@ const Projects = () => {
                         ]}
                     />
                     <Project 
+                        available
                         onClick={() => window.open('https://darttgoblin.github.io/Herma/Herma.html', '_blank')}
                         title='Herma 🔮'
                         skill='Machine Learning'
