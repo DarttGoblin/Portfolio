@@ -14,10 +14,21 @@ const Projects = () => {
                 <div className='projects-container'>
                     <Project 
                         onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
+                        title='PulseX 🩺'
+                        skill='Robotics'
+                        date='2025' 
+                        description='Working on it! stay tunned'
+                        tools={[
+                            { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' },
+                            { name: 'Raspberry Pi', backgroundColor: 'rgb(95, 40, 55)' }
+                        ]}
+                    />
+                    <Project 
+                        onClick={() => window.open('https://darttgoblin.github.io/Herma/Herma.html', '_blank')}
                         title='Herma 🔮'
                         skill='Machine Learning'
                         date='2025' 
-                        description='Working on it! stay tunned'
+                        description='Herma predicts divorce likelihood using AI-driven analysis from 51 behavioral questions.'
                         tools={[
                             { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
