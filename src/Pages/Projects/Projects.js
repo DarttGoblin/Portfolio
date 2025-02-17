@@ -29,7 +29,7 @@ const Projects = () => {
                         title='Herma 🔮'
                         skill='Machine Learning'
                         date='2025' 
-                        description='Herma predicts divorce likelihood using AI-driven analysis from 51 behavioral questions.'
+                        description='Herma predicts divorce likelihood using AI-driven analysis from 54 behavioral statements.'
                         tools={[
                             { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
