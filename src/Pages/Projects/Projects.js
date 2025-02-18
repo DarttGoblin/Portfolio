@@ -24,11 +24,13 @@ const Projects = () => {
                         ]}
                     />
                     <Project
-                        onClick={() => window.open('https://darttgoblin.github.io/Herma/Herma.html', '_blank')}
+                        // onClick={() => window.open('https://darttgoblin.github.io/Herma/Herma.html', '_blank')}
+                        onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
                         title='Herma 🔮'
                         skill='Machine Learning'
                         date='2025' 
-                        description='Herma predicts divorces using AI-driven analysis from 54 behavioral statements.'
+                        description='Working on it! stay tunned'
+                        // description='Herma predicts divorces using AI-driven analysis from 54 behavioral statements.'
                         tools={[
                             { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
