@@ -23,13 +23,12 @@ const Projects = () => {
                             { name: 'Raspberry Pi', backgroundColor: 'rgb(95, 40, 55)' }
                         ]}
                     />
-                    <Project 
-                        available
+                    <Project
                         onClick={() => window.open('https://darttgoblin.github.io/Herma/Herma.html', '_blank')}
                         title='Herma 🔮'
                         skill='Machine Learning'
                         date='2025' 
-                        description='Herma predicts divorce likelihood using AI-driven analysis from 54 behavioral statements.'
+                        description='Herma predicts divorces using AI-driven analysis from 54 behavioral statements.'
                         tools={[
                             { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
