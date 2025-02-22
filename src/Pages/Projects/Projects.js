@@ -14,10 +14,23 @@ const Projects = () => {
                 <div className='projects-container'>
                     <Project 
                         onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
+                        title='PulseTrack 🌡️'
+                        skill='IoT'
+                        date='2025' 
+                        description='Working on it! stay tunned'
+                        // description='PulseX web app, real-time health monitoring with AI-driven insights for early disease detection.'
+                        tools={[
+                            { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' },
+                            { name: 'Raspberry Pi', backgroundColor: 'rgb(95, 40, 55)' }
+                        ]}
+                    />
+                    <Project 
+                        onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
                         title='PulseX 🩺'
                         skill='Robotics'
                         date='2025' 
                         description='Working on it! stay tunned'
+                        // description='PulseX: AI-powered health monitoring for heart, temperature, and vital signs with real-time analysis.'
                         tools={[
                             { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' },
                             { name: 'Raspberry Pi', backgroundColor: 'rgb(95, 40, 55)' }
@@ -83,7 +96,7 @@ const Projects = () => {
                         title='NeuroLink 🎮'
                         skill='IoT'
                         date='2025' 
-                        description='NeuroDrive interface, user-friendly enabling secure, precise car control and automation'
+                        description='NeuroDrive web app, user-friendly enabling secure, precise car control and automation'
                         tools={[
                             { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
