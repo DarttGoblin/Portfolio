@@ -202,7 +202,7 @@ const Projects = () => {
                         title='SchoolPad 📚'
                         skill='Desktop Application'
                         date='2022'
-                        description='Student note-taking app to add, view, and delete notes using dynamic memory allocation.'
+                        description='Student app to add, view, and delete notes using dynamic memory allocation.'
                         tools={[
                             { name: 'C', backgroundColor: 'rgb(40, 65, 105)' },
                         ]}
