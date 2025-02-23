@@ -197,17 +197,6 @@ const Projects = () => {
                         ]}
                     />
                     <Project 
-                        available
-                        onClick={() => {alert('This application has been developed but not hosted online.')}}
-                        title='SchoolPad 📚'
-                        skill='Desktop Application'
-                        date='2022'
-                        description='Student app to add, view, and delete notes using dynamic memory allocation.'
-                        tools={[
-                            { name: 'C', backgroundColor: 'rgb(40, 65, 105)' },
-                        ]}
-                    />
-                    <Project 
                         onClick={() => {alert('Project is currently undergoing maintenance and will be available shortly!')}}
                         title='iBulk 🏋️‍♂️'
                         skill='Web Development'
@@ -219,6 +208,17 @@ const Projects = () => {
                             { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
                             { name: 'Node.js', backgroundColor: 'rgb(43, 90, 50)' },
                             { name: 'SQL', backgroundColor: 'rgb(114, 150, 186)' }
+                        ]}
+                    />
+                    <Project 
+                        available
+                        onClick={() => {alert('This application has been developed but not hosted online.')}}
+                        title='SchoolPad 📚'
+                        skill='Desktop Application'
+                        date='2022'
+                        description='Student app to add, view, and delete notes using dynamic memory allocation.'
+                        tools={[
+                            { name: 'C', backgroundColor: 'rgb(40, 65, 105)' },
                         ]}
                     />
                 </div>
