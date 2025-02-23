@@ -126,7 +126,7 @@ const Home = () => {
                     <Tool image={php} title='Php' usecase='Web Development' color="rgb(75, 50, 95)"/>
                     <Tool image={python} title='Python' usecase='Machine Learning' color="rgb(45, 70, 90)"/>
                     <Tool image={java} title='Java' usecase='Desktop Application' color="rgb(90, 55, 35)"/>
-                    <Tool image={c} title='C' usecase='Desktop Application' color="rgb(0, 122, 0)"/>
+                    <Tool image={c} title='C' usecase='Desktop Application' color="rgb(40, 65, 105)"/>
                     <Tool image={cpp} title='C++' usecase='Embedded Systems' color="rgb(40, 65, 105)"/>
                     <Tool image={raspberry} title='Raspberry Pi' usecase='Embedded Systems' color="rgb(95, 40, 55)"/>
                     <Tool image={arduino} title='Arduino' usecase='Embedded Systems' color="rgb(45, 90, 90)"/>
