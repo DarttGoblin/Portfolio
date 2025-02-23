@@ -18,6 +18,7 @@ import php from '../../Media/Home.Media/php.png'
 import python from '../../Media/Home.Media/python.png'
 import cpp from '../../Media/Home.Media/c++.png'
 import java from '../../Media/Home.Media/java.png'
+import c from '../../Media/Home.Media/c.png'
 import raspberry from '../../Media/Home.Media/raspberry-pi.png'
 import arduino from '../../Media/Home.Media/arduino.png'
 import tinker from '../../Media/Home.Media/tinker-cad.png'
@@ -125,6 +126,7 @@ const Home = () => {
                     <Tool image={php} title='Php' usecase='Web Development' color="rgb(75, 50, 95)"/>
                     <Tool image={python} title='Python' usecase='Machine Learning' color="rgb(45, 70, 90)"/>
                     <Tool image={java} title='Java' usecase='Desktop Application' color="rgb(90, 55, 35)"/>
+                    <Tool image={c} title='C' usecase='Desktop Application' color="rgb(0, 122, 0)"/>
                     <Tool image={cpp} title='C++' usecase='Embedded Systems' color="rgb(40, 65, 105)"/>
                     <Tool image={raspberry} title='Raspberry Pi' usecase='Embedded Systems' color="rgb(95, 40, 55)"/>
                     <Tool image={arduino} title='Arduino' usecase='Embedded Systems' color="rgb(45, 90, 90)"/>
