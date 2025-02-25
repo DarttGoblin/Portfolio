@@ -199,6 +199,7 @@ const Projects = () => {
                         ]}
                     />
                     <Project 
+                        available
                         onClick={() => {alert('This application has been developed but not hosted online.')}}
                         title='Fire & Slice 🍕'
                         skill='Web Development'
