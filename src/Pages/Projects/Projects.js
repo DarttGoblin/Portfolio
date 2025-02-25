@@ -20,8 +20,10 @@ const Projects = () => {
                         description='Working on it! stay tunned'
                         // description='PulseX web app, real-time health monitoring with AI-driven insights for early disease detection.'
                         tools={[
+                            { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
+                            { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
+                            { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
                             { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' },
-                            { name: 'Raspberry Pi', backgroundColor: 'rgb(95, 40, 55)' }
                         ]}
                     />
                     <Project 
