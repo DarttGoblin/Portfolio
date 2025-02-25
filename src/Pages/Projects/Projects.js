@@ -32,7 +32,7 @@ const Projects = () => {
                         skill='Robotics'
                         date='2025' 
                         description='Working on it! stay tunned'
-                        // description='PulseX: AI-powered health monitoring for heart, temperature, and vital signs with real-time analysis.'
+                        // description='AI-powered health monitoring for heart, temperature, and vital signs with real-time analysis.'
                         tools={[
                             { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' },
                             { name: 'Raspberry Pi', backgroundColor: 'rgb(95, 40, 55)' }
@@ -196,6 +196,19 @@ const Projects = () => {
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
                             { name: 'Php', backgroundColor: 'rgb(75, 50, 95)' },
                             { name: 'SQL', backgroundColor: 'rgb(114, 150, 186)' }
+                        ]}
+                    />
+                    <Project 
+                        onClick={() => {alert('This application has been developed but not hosted online.')}}
+                        title='Fire & Slice 🍕'
+                        skill='Web Development'
+                        date='2023' 
+                        description='A pizza ordering web app with a user-friendly interface, real-time updates, and customization.'
+                        tools={[
+                            { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
+                            { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
+                            { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
+                            { name: 'Node.js', backgroundColor: 'rgb(43, 90, 50)' }
                         ]}
                     />
                     <Project 
