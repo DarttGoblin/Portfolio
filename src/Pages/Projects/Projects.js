@@ -12,7 +12,7 @@ const Projects = () => {
                 <span className='projects-title'>Projects</span>
                 <span className='projects-description'>A list of some projects and side projects I worked on.</span>
                 <div className='projects-container'>
-                    // <Project 
+                    <Project 
                     //     onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
                     //     title='PulseTrack 🌡️'
                     //     skill='IoT'
@@ -38,7 +38,7 @@ const Projects = () => {
                     //         { name: 'Raspberry Pi', backgroundColor: 'rgb(95, 40, 55)' }
                     //     ]}
                     // />
-                    <Project
+                    // <Project
                         // onClick={() => window.open('https://darttgoblin.github.io/Herma/Herma.html', '_blank')}
                         onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
                         title='Herma 🔮'
