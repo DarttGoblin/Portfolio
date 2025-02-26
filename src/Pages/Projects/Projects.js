@@ -12,32 +12,32 @@ const Projects = () => {
                 <span className='projects-title'>Projects</span>
                 <span className='projects-description'>A list of some projects and side projects I worked on.</span>
                 <div className='projects-container'>
-                    <Project 
-                        onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
-                        title='PulseTrack 🌡️'
-                        skill='IoT'
-                        date='2025' 
-                        description='Working on it! stay tunned'
-                        // description='PulseX web app, real-time health monitoring with AI-driven insights for early disease detection.'
-                        tools={[
-                            { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
-                            { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
-                            { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
-                            { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' },
-                        ]}
-                    />
-                    <Project 
-                        onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
-                        title='PulseX 🩺'
-                        skill='Robotics'
-                        date='2025' 
-                        description='Working on it! stay tunned'
-                        // description='AI-powered health monitoring for heart, temperature, and vital signs with real-time analysis.'
-                        tools={[
-                            { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' },
-                            { name: 'Raspberry Pi', backgroundColor: 'rgb(95, 40, 55)' }
-                        ]}
-                    />
+                    // <Project 
+                    //     onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
+                    //     title='PulseTrack 🌡️'
+                    //     skill='IoT'
+                    //     date='2025' 
+                    //     description='Working on it! stay tunned'
+                    //     // description='PulseX web app, real-time health monitoring with AI-driven insights for early disease detection.'
+                    //     tools={[
+                    //         { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
+                    //         { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
+                    //         { name: 'Javascript', backgroundColor: 'rgb(81, 75, 20)' },
+                    //         { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' },
+                    //     ]}
+                    // />
+                    // <Project 
+                    //     onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
+                    //     title='PulseX 🩺'
+                    //     skill='Robotics'
+                    //     date='2025' 
+                    //     description='Working on it! stay tunned'
+                    //     // description='AI-powered health monitoring for heart, temperature, and vital signs with real-time analysis.'
+                    //     tools={[
+                    //         { name: 'Python', backgroundColor: 'rgb(45, 70, 90)' },
+                    //         { name: 'Raspberry Pi', backgroundColor: 'rgb(95, 40, 55)' }
+                    //     ]}
+                    // />
                     <Project
                         // onClick={() => window.open('https://darttgoblin.github.io/Herma/Herma.html', '_blank')}
                         onClick={() => {alert('This is the project i am working on currently, will be available shortly!')}}
