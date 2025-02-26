@@ -204,7 +204,7 @@ const Projects = () => {
                         title='Fire & Slice 🍕'
                         skill='Web Development'
                         date='2023' 
-                        description='A pizza ordering web app with a user-friendly interface, real-time updates, and customization.'
+                        description='A pizza ordering user-friendly web app, real-time updates, and customization.'
                         tools={[
                             { name: 'Html', backgroundColor: 'rgb(134, 67, 67)' },
                             { name: 'Css', backgroundColor: 'rgb(32, 57, 101)' },
