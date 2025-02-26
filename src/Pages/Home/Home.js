@@ -160,7 +160,7 @@ const Home = () => {
                     </div>
                     <div className='skill-container'>
                         <img className='skill-image' src={machine_learning} alt='Machine Learning'></img>
-                        <span className='skill-title'>Machine Learning</span>
+                        <span className='skill-title'>Data Science</span>
                         <span className='skill-description'>
                             Using data and algorithms, I develop predictive models that power 
                             decision-making and solve real-world problems.
